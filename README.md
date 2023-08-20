@@ -21,7 +21,8 @@ with nibepi. The base of many examples in this tutorial has been found in posts 
    2. [nibepi - publish registers to mqtt](nibepi-registers-mqtt.md)
    3. [Home Assistant - Add integration - MQTT](HomeAssistant-mqtt-settings.md)
    4. [Home Assistant - Add HACS custom Frontend components](HomeAssistant-HACS-Add_Components.md)
-4. Home assistant integration 
+3. Home assistant - Examples to monitor and control your Nibe heat pump
+   1. [Status image with temperature control](configs/status_image_with_temperature_control)
 
 ## Prerequisites
 This tutorial assumes the following:

@@ -1,0 +1,62 @@
+elements:
+  - type: state-label
+    entity: sensor.nibe_bt50_room_temp_s1
+    style:
+      top: 60%
+      left: 20%
+      font-size: 150%
+      color: white
+  - type: state-label
+    entity: sensor.nibe_bt1_outdoor_temperature
+    style:
+      top: 22%
+      left: 20%
+      font-size: 150%
+      color: white
+  - type: state-label
+    entity: sensor.nibe_bt7_hw_top
+    style:
+      top: 58%
+      left: 50%
+      font-size: 150%
+      color: white
+  - type: state-label
+    entity: sensor.nibe_eb100_ep14_bt3_return_temp
+    unit: ''
+    style:
+      top: 52%
+      left: 76%
+      font-size: 100%
+      color: black
+  - type: state-label
+    entity: sensor.nibe_bt2_supply_temp_s1
+    unit: ''
+    style:
+      top: 56%
+      left: 88%
+      font-size: 100%
+      color: black
+  - type: custom:numberbox-card
+    entity: input_number.indoor_set_temperature
+    name: false
+    icon: false
+    min: 16
+    max: 25
+    step: 0.5
+    card_mod:
+      style: |
+        ha-card {
+          background: white;
+        }
+    style:
+      top: 87%
+      left: 33%
+  - type: state-label
+    entity: sensor.nibe_int_el_add_power
+    style:
+      top: 87%
+      left: 66%
+      font-size: 150%
+      color: white
+image: /local/images/nibe_display.png
+type: picture-elements
