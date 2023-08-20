@@ -22,7 +22,7 @@ with nibepi. The base of many examples in this tutorial has been found in posts 
    3. [Home Assistant - Add integration - MQTT](HomeAssistant-mqtt-settings.md)
    4. [Home Assistant - Add HACS custom Frontend components](HomeAssistant-HACS-Add_Components.md)
 3. Home assistant - Examples to monitor and control your Nibe heat pump
-   1. [Status image with temperature control](configs/status_image_with_temperature_control)
+   1. [Status image with temperature control](configs/status_image_with_temperature_control/status_image_with_temperature_control.md)
 
 ## Prerequisites
 This tutorial assumes the following:
