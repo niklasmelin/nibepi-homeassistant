@@ -16,7 +16,7 @@ Add the following information:
 - User, username to logg in to the mqtt broker
 - Password, the corresponding password for the user to log in to the mqtt broker
 
-Ensure that the HA Disovery switch is turned on to allow for automatic discovery of sensors in Home Assistant.
+Ensure that the HA Discovery switch is turned on to allow for automatic discovery of sensors in Home Assistant.
 Turn on the switch for the MQTT Broker.
 
 WARNING: If a connection to the mqtt broker can not be achieved, _nibepi_ will stop trying to connect to the broker. This 
