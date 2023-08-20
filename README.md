@@ -20,6 +20,8 @@ with nibepi. The base of many examples in this tutorial has been found in posts 
    1. [nibepi - mqtt settings to connect to mqtt broker](nibepi-settings-mqtt.md)
    2. [nibepi - publish registers to mqtt](nibepi-registers-mqtt.md)
    3. [Home Assistant - Add integration - MQTT](HomeAssistant-mqtt-settings.md)
+   4. [Home Assistant - Add HACS custom Frontend components](HomeAssistant-HACS-Add_Components.md)
+4. Home assistant integration 
 
 ## Prerequisites
 This tutorial assumes the following:
