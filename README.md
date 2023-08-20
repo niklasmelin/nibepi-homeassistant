@@ -1,11 +1,23 @@
 # Integrate nibepi to Home Assistant
 Tutorial on how to connect nibepi to Home Assistant to allow for monitoring and controlling
-the Nibe heat pump from Home Assistant.
+the Nibe heat pump from Home Assistant. It allows for monitoring of current values such as:
+- utilization of electrical heater
+- Warm water temperature
+- Outdoor and indoor temperature sensors
+- Condenser and evaporator temperatures
+- Fan speed
+- Pump frequency
+- and many more things....
 
 nibepi is a project found on [https://github.com/anerdins/nibepi](https://github.com/anerdins/nibepi) 
 with a closed community on Facebook [https://www.facebook.com/groups/nibepi/](https://www.facebook.com/groups/nibepi/)
 where you can as request to join. The community is a great place for questions and share your experiences primarily
-with nibepi.
+with nibepi. The base of many examples in this tutorial has been found in posts and comments in the Facebook group.
+
+## Table of contents
+1. [Prerequisites](#prerequisites)
+2. [Configuration](#configuration)
+   1. [nibepi - mqtt settings](nibepi-settings-mqtt.md)
 
 ## Prerequisites
 This tutorial assumes the following:
@@ -16,6 +28,8 @@ This tutorial assumes the following:
 
 
 ## Configuration
+- Configure  _nibepi_: [nibe pi settings](nibepi-settings-mqtt.md)
+- Configure _Home Assistant_ - mqtt 
 ## nibepi - mqtt settings
 Navigate to the webinterface of your nibepi (http://nibepi:1880/ui). Replace _nibepi_ 
 with the name or the ip adress on your local network.
