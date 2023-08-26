@@ -23,6 +23,7 @@ with nibepi. The base of many examples in this tutorial has been found in posts 
    4. [Home Assistant - Add HACS custom Frontend components](HomeAssistant-HACS-Add_Components.md)
 3. Home assistant - Examples to monitor and control your Nibe heat pump
    1. [Status image with temperature control](configs/status_image_with_temperature_control/status_image_with_temperature_control.md)
+   2. [Heat pump schematics with sensor information](configs/heat_pump_schematics_with_sensors/Hassio_Heat_pump_schematics_with_sensors.md)
 
 ## Prerequisites
 This tutorial assumes the following:
