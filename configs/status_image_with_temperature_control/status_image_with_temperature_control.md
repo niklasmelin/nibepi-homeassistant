@@ -1,6 +1,6 @@
 ## Home Assistant - Status image with temperature control
 
-Example for creating a status image similar to Nibe heat pump display with temperature control:  
+Example for creating a status image similar to Nibe heat pump display with temperature control inspired by Andreas Nygren in the [nibepi-group on Facebook](https://www.facebook.com/groups/nibepi/posts/1306674769894056/):  
 ![Example](Hassio_Heat-system-status_example.png)  
 The image displays the following information:
 - Outside temperature

@@ -1,0 +1,96 @@
+elements:
+  - type: state-label
+    entity: sensor.nibe_int_el_add_power
+    prefix: 'Heater: '
+    style:
+      top: 50%
+      left: 35%
+  - type: state-label
+    entity: sensor.nibe_exhaust_air_flow_bs1_as_int
+    prefix: 'BS1: '
+    style:
+      top: 75%
+      left: 51%
+  - type: state-label
+    entity: sensor.nibe_bt1_outdoor_temperature
+    prefix: 'BT1: '
+    style:
+      top: 88%
+      left: 10%
+  - type: state-label
+    entity: sensor.nibe_bt2_supply_temp_s1
+    prefix: 'BT2: '
+    style:
+      top: 6%
+      left: 40%
+  - type: state-label
+    entity: sensor.nibe_eb100_ep14_bt3_return_temp
+    prefix: 'BT3: '
+    style:
+      top: 10%
+      left: 10%
+  - type: state-label
+    entity: sensor.nibe_bt6_hw_load
+    prefix: 'BT6: '
+    style:
+      top: 30%
+      left: 30%
+  - type: state-label
+    entity: sensor.nibe_bt7_hw_top
+    prefix: 'BT7: '
+    style:
+      top: 23%
+      left: 30%
+  - type: state-label
+    entity: sensor.nibe_eb100_ep14_bt12_condensor_out
+    prefix: 'BT12: '
+    style:
+      top: 44%
+      left: 10%
+  - type: state-label
+    entity: sensor.nibe_eb100_ep14_bt14_hot_gas_temp
+    prefix: 'BT14: '
+    style:
+      top: 44%
+      left: 60%
+  - type: state-label
+    entity: sensor.nibe_eb100_bt16_evaporator_temp
+    prefix: 'BT16: '
+    style:
+      top: 60%
+      left: 10%
+  - type: state-label
+    entity: sensor.nibe_eb100_ep14_bt17_suction
+    prefix: 'BT17: '
+    style:
+      top: 60%
+      left: 60%
+  - type: state-label
+    entity: sensor.nibe_bt20_exhaust_air_temp_1
+    prefix: 'BT20: '
+    style:
+      top: 91%
+      left: 36%
+  - type: state-label
+    entity: sensor.nibe_bt21_vented_air_temp_1
+    prefix: 'BT21: '
+    style:
+      top: 68%
+      left: 12%
+  - type: custom:numberbox-card
+    entity: input_number.indoor_set_temperature
+    name: false
+    icon: false
+    min: 16
+    max: 25
+    step: 0.5
+    card_mod:
+      style: |
+        ha-card {
+          background: grey;
+        }
+    style:
+      top: 91%
+      left: 22%
+image: /local/images/nibe.png
+type: picture-elements
