@@ -20,12 +20,12 @@ The image displays the following information [Register, Sensor name, Description
 - Current indor target temperature using the Helper input_number.indoor_set_temperature with HACS - numberbox-card
 
 ### Prerequisites
-1. [Home Assistant - Add HACS custom Frontend component numberbox-card](HomeAssistant-HACS-Add_Components.md)
+1. [Home Assistant - Add HACS custom Frontend component numberbox-card](../../HomeAssistant-HACS-Add_Components.md)
 
 ### Step-by-step guide
 1. Download the schematic image [nibe_schematics.png](nibe_schematics.png)
 
-2. Upload the image [Nibe display](nibe_schematics.png) to _Home Assistant_.  
+2. Upload the image [Nibe schematics](nibe_schematics.png) to _Home Assistant_.  
    The image must be placed in the folder /www/ to be reachable to the web interface. In this example the file will be
    located at /www/images/nibe_schematics.png.  This corresponds to /local/images/nibe_schematics.png in the configuration.
   
