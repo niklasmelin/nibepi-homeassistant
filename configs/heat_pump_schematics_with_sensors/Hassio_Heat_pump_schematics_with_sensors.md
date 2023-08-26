@@ -33,8 +33,8 @@ The image displays the following information [Register, Sensor name, Description
    - In the top right corner, press ![Edit](Hassio_Edit-dashboard.png)
    - In the menu select "Edit dashboard"
    - Press the "+" sign in the top row to add a new View.  
-     1. Configure the new View
-        ![Add View](Hassio_Schematics_View_configuration.png)
+     1. Configure the new View  
+        ![Add View](Hassio_Schematics_View_configuration.png)        
      2. Add a new Card and select "Picture elements" card as type
      3. In the card select "Show code editor" in the bottom.
      4. Replace the code with the following code from [nibe_display.yaml](nibe_display.yaml) or copy from below:
