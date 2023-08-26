@@ -9,6 +9,10 @@ the Nibe heat pump from Home Assistant. It allows for monitoring of current valu
 - Pump frequency
 - and many more things....
 
+By attaching a Raspberry Pi with a Modbus HAT and a 12 V power HAT it can communicate with the Nibe heat pump over Modbus.
+There are multiple ways to do this and check out the nibepi project for alternatives. This is my current installation:   
+![raspberryPI](images/RaspberryPi-Zero_nibePi.png)
+
 nibepi is a project found on [https://github.com/anerdins/nibepi](https://github.com/anerdins/nibepi) 
 with a closed community on Facebook [https://www.facebook.com/groups/nibepi/](https://www.facebook.com/groups/nibepi/)
 where you can as request to join. The community is a great place for questions and share your experiences primarily
