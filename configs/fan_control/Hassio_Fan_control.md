@@ -6,11 +6,22 @@ control of the predefined fan modes 1-4 as well as the default fan speed.
 ![Example](Hassio_Fan_control.png)  
 
 The following registers must be exposed by _nibepi_ [Register, Sensor name, Description:
-- 43086, nibe_int_el_add_power, Current power of the electrical heater
-- 40050, nibe_exhaust_air_flow_bs1, Current exhaust air flow
 
-nibe_fan_return_time_1
-nibe_exhaust_fan_speed_1
+- 47260, nibe_fan_mode, Current mode in which the exhaust fan is operating in
+- 47265, nibe_exhaust_fan_speed_normal, Default fan speed for normal operation
+
+- 47274, nibe_fan_return_time_1, Time for Fan 1 mode before fan speed returns to normal operation
+- 47264, nibe_exhaust_fan_speed_1, Custom speed for Fan 1 mode
+
+- 47273, nibe_fan_return_time_2, Time for Fan 2 mode before fan speed returns to normal operation
+- 47263, nibe_exhaust_fan_speed_2, Custom speed for Fan 2 mode
+
+- 47272, nibe_fan_return_time_3, Time for Fan 3 mode before fan speed returns to normal operation
+- 47262, nibe_exhaust_fan_speed_3, Custom speed for Fan 3 mode
+
+- 47271, nibe_fan_return_time_4, Time for Fan 4 mode before fan speed returns to normal operation
+- 47261, nibe_exhaust_fan_speed_4, Custom speed for Fan 1 mode
+
 
 ### Prerequisites
 1. [Home Assistant - Add HACS custom Frontend component numberbox-card](../../HomeAssistant-HACS-Add_Components.md)
