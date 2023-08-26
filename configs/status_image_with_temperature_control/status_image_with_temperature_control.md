@@ -13,7 +13,7 @@ The image displays the following information:
 
 
 1. Create a helper to set and get current temperature from _nibepi_
-   1. Select "Settings" in the menue on the left sied
+   1. Select "Settings" in the menu on the left side
    2. Select "Device & Services"
    3. Select "Helpers"
    ![Hassio Helper configuration](Hassio_In-door-temperature-helper.png)

@@ -1,0 +1,109 @@
+type: vertical-stack
+title: Ventilation fan speed
+cards:
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: sensor.nibe_fan_mode
+        aspect_ratio: 3/1
+        tap_action:
+          action: call-service
+          service: mqtt.publish
+          service_data:
+            topic: homeassistant/nibe/modbus/47260/set
+            payload: '0'
+        hold_action:
+          action: none
+        name: Default speed
+        show_name: true
+        icon: mdi:fan
+        state:
+          - value: Normal
+            color: limegreen
+  - type: custom:numberbox-card
+    entity: input_number.nibe_normal_exhaust_fan_speed
+    name: null
+    min: 30
+    max: 70
+    step: 5
+    secondary_info: >
+      Default speed: 50 %% <br> Current speed:<b  style="color:green">
+      %sensor.nibe_exhaust_fan_speed_normal:state %% </b>
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: sensor.nibe_fan_mode
+        tap_action:
+          action: call-service
+          service: mqtt.publish
+          service_data:
+            topic: homeassistant/nibe/modbus/47260/set
+            payload: '1'
+        hold_action:
+          action: none
+        name: |
+          [[[
+            return states['sensor.nibe_fan_return_time_1'].state + 'h - ' + states['sensor.nibe_exhaust_fan_speed_1'].state + '%';
+          ]]]
+        show_name: true
+        icon: mdi:fan
+        state:
+          - value: Hastighet 1
+            color: limegreen
+      - type: custom:button-card
+        entity: sensor.nibe_fan_mode
+        tap_action:
+          action: call-service
+          service: mqtt.publish
+          service_data:
+            topic: homeassistant/nibe/modbus/47260/set
+            payload: '2'
+        hold_action:
+          action: none
+        name: |
+          [[[
+            return states['sensor.nibe_fan_return_time_2'].state + 'h - ' + states['sensor.nibe_exhaust_fan_speed_2'].state + '%';
+          ]]]
+        show_name: true
+        icon: mdi:fan
+        state:
+          - value: Hastighet 2
+            color: limegreen
+      - type: custom:button-card
+        entity: sensor.nibe_fan_mode
+        tap_action:
+          action: call-service
+          service: mqtt.publish
+          service_data:
+            topic: homeassistant/nibe/modbus/47260/set
+            payload: '3'
+        hold_action:
+          action: none
+        name: |
+          [[[
+            return states['sensor.nibe_fan_return_time_3'].state + 'h - ' + states['sensor.nibe_exhaust_fan_speed_3'].state + '%';
+          ]]]
+        show_name: true
+        icon: mdi:fan
+        state:
+          - value: Hastighet 3
+            color: limegreen
+      - type: custom:button-card
+        entity: sensor.nibe_fan_mode
+        tap_action:
+          action: call-service
+          service: mqtt.publish
+          service_data:
+            topic: homeassistant/nibe/modbus/47260/set
+            payload: '4'
+        hold_action:
+          action: none
+        name: |
+          [[[
+            return states['sensor.nibe_fan_return_time_4'].state + 'h - ' + states['sensor.nibe_exhaust_fan_speed_4'].state + '%';
+          ]]]
+        show_name: true
+        icon: mdi:fan
+        state:
+          - value: Hastighet 4
+            color: limegreen
