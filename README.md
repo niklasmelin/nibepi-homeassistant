@@ -24,6 +24,8 @@ with nibepi. The base of many examples in this tutorial has been found in posts 
 3. Home assistant - Examples to monitor and control your Nibe heat pump
    1. [Status image with temperature control](configs/status_image_with_temperature_control/status_image_with_temperature_control.md)
    2. [Heat pump schematics with sensor information](configs/heat_pump_schematics_with_sensors/Hassio_Heat_pump_schematics_with_sensors.md)
+   3. [Heat pump fan control](configs/fan_control/Hassio_Fan_control.md)
+   4. [Heat pump hot water mode control](configs/hot_water_mode/Hassio_Hot_water_mode.md)
 
 ## Prerequisites
 This tutorial assumes the following:
