@@ -23,7 +23,8 @@ The following registers must be exposed by _nibepi_ [Register, Sensor name, Desc
 1. [Home Assistant - Add HACS custom Frontend component button-card](../../HomeAssistant-HACS-Add_Components.md)
 
 ### Step-by-step guide
-1In the _Home Assistant_ overview select:
+1. Add Hot water card
+   - Go to the _Home Assistant_ overview
    - In the top right corner, press ![Edit](Hassio_Edit-dashboard.png)
    - In the menu select "Edit dashboard"
    - Select a View where the new card will be added. 
@@ -31,8 +32,6 @@ The following registers must be exposed by _nibepi_ [Register, Sensor name, Desc
      2. In the card select "Show code editor" in the bottom.
      3. Replace the code with the following code from [nibe_Hot_water_control.yaml](nibe_Hot_water_control.yaml) or copy from below:
 
-        NOTE: For the _Entity_: "input_number.nibe_normal_exhaust_fan_speed" replace the secondary info
-         "Default speed: 50" with the speed optimal for your house.
 
 ```yaml
 type: vertical-stack
