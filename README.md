@@ -13,6 +13,7 @@ nibepi is a project found on [https://github.com/anerdins/nibepi](https://github
 with a closed community on Facebook [https://www.facebook.com/groups/nibepi/](https://www.facebook.com/groups/nibepi/)
 where you can as request to join. The community is a great place for questions and share your experiences primarily
 with nibepi. The base of many examples in this tutorial has been found in posts and comments in the Facebook group.
+Where attribution of code is missing, please point me in the right direction so that this can be corrected.
 
 ## Table of contents
 1. [Prerequisites](#prerequisites)
@@ -51,3 +52,9 @@ This tutorial assumes the following:
   For _Home Assistant_ to be able to subscribe and to publish messages to the mqtt broker an integration must be
   added and configured.  
   [Home Assistant - Add integration - MQTT](HomeAssistant-mqtt-settings.md)
+
+## Contribution
+You are most welcome to add more examples on how the _nibepi_ integration can be utilized with Home Assistant to create 
+or enhance smart functions.
+- For simpler things, the report Issue function here might be sufficient.
+- For more advanced things, please fork the repository and make a pull request.
