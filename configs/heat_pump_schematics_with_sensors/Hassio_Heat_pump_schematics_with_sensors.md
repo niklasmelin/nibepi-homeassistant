@@ -183,6 +183,6 @@ action:
   - service: mqtt.publish
     data:
       topic: homeassistant/nibe/modbus/47398/set
-      payload_template: "{{states('input_number.indoor_set_temperature') | string}}"
+      payload: "{{states('input_number.indoor_set_temperature') | string}}"
 mode: single
 ```

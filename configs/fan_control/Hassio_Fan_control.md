@@ -200,6 +200,6 @@ action:
   - service: mqtt.publish
     data:
       topic: homeassistant/nibe/modbus/47265/set
-      payload_template: "{{states('input_number.nibe_normal_exhaust_fan_speed') | string}}"
+      payload: "{{states('input_number.nibe_normal_exhaust_fan_speed') | string}}"
 mode: single
 ```
