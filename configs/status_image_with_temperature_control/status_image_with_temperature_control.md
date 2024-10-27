@@ -15,7 +15,7 @@ The image displays the following information:
 1. Create a helper to set and get current temperature from _nibepi_
    1. Select "Settings" in the menu on the left side
    2. Select "Device & Services"
-   3. Select "Helpers"
+   3. Select "Helpers", Select "+ Create Helper" in the bottom of the page and create a Helper of type "Number"
    ![Hassio Helper configuration](Hassio_In-door-temperature-helper.png)
 2. Upload the image [Nibe display](nibe_display.png) to _Home Assistant_.  
    The image must be placed in the folder /www/ to be reachable to the web interface. In this example the file will be
@@ -139,6 +139,6 @@ action:
   - service: mqtt.publish
     data:
       topic: homeassistant/nibe/modbus/47398/set
-      payload_template: "{{states('input_number.indoor_set_temperature') | string}}"
+      payload: "{{states('input_number.indoor_set_temperature') | string}}"
 mode: single
 ```
