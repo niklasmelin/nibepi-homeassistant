@@ -31,6 +31,8 @@ Where attribution of code is missing, please point me in the right direction so 
    2. [Heat pump schematics with sensor information](configs/heat_pump_schematics_with_sensors/Hassio_Heat_pump_schematics_with_sensors.md)
    3. [Heat pump fan control](configs/fan_control/Hassio_Fan_control.md)
    4. [Heat pump hot water mode control](configs/hot_water_mode/Hassio_Hot_water_mode.md)
+4. Customizations
+   1. [Custom configuration](configs/custom_sensors/custom_sensors.md) 
 
 ## Prerequisites
 This tutorial assumes the following:
