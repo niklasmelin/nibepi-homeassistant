@@ -57,6 +57,9 @@ This tutorial assumes the following:
   added and configured.  
   [Home Assistant - Add integration - MQTT](HomeAssistant-mqtt-settings.md)
 
+## SSH connection
+You can connect to you NibePI using SSH with the user pi and password nibe.
+
 ## Contribution
 You are most welcome to add more examples on how the _nibepi_ integration can be utilized with Home Assistant to create 
 or enhance smart functions.
